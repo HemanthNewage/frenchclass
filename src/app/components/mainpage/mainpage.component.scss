@@ -1,9 +1,13 @@
 .whatsapp{
     position: absolute;
-    width:50px;
+    width: 50px;
     height: 50px;
     border-radius: 100%;
     background-color: #fff;
     bottom: 10px;
-    left:10px;
+    left: 10px;
+    padding: 2px;
+    img{
+        width: 100%;
+    }
 }
