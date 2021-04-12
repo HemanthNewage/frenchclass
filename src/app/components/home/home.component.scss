@@ -1,11 +1,9 @@
 h1{
     font-size:3rem;
-    color:#ff6600;
+    color:#2a2d52;
     font-weight: 500;
 }
-div{
-    color:#fff;
-}
+
 
 .card{
     padding-top:5rem;
@@ -13,4 +11,22 @@ div{
     margin: auto;
     font-size: 1rem;
     font-weight: 500;
+   
+}
+.row{
+    background-image: url('/assets/home-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    background-size: contain;
+}
+.profile{
+    width: 50%;
+    padding-top:5rem;
+    // &:hover{
+    //     transform: rotateX(360deg);
+    //     -webkit-animation-duration: 6s; 
+    //     -webkit-animation-delay: 3s;
+    //     animation-delay: 3s;    
+    // }
 }
