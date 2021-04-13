@@ -7,7 +7,7 @@ h1{
 
 
 .card{
-    padding-top:4rem;
+    padding-top:rem;
     width: 75%;
     margin: auto;
     font-size: 1rem;
@@ -15,9 +15,9 @@ h1{
    
 }
 .row{
-    background-image: url('/assets/home-bg.jpeg');
-    background-repeat: no-repeat;
-    background-position: left;
+    background-image: url('/assets/home-bg.jpeg'),  url('/assets/home-bgcenter.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
     height: 500px;
     background-size: contain;
 }
