@@ -9,7 +9,8 @@ h3{
 mat-card{
     min-height: 11rem;
     &:hover{
-       background-color: #ddd;
+       //background-color: #ddd;
+       transform: scale(1.02);
        cursor: pointer;
     }
 }
