@@ -8,8 +8,9 @@
 @import '~bootstrap/scss/utilities';
 @import '~bootstrap/scss/nav';
 @import '~bootstrap/scss/navbar';
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+h2,h1 { margin: 0; font-family: 'Sacramento', cursive !important; }
 
 body{
     background-color: #fff;

@@ -10,13 +10,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button'; 
 import { HomeComponent } from './components/home/home.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainpageComponent,
     HomeComponent,
-    ContactusComponent
+    ContactusComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
