@@ -1,12 +1,13 @@
 h1{
-    font-size:3rem;
+    font-size:5rem;
     color:#2a2d52;
     font-weight: 500;
+    line-height: 4rem;
 }
 
 
 .card{
-    padding-top:5rem;
+    padding-top:4rem;
     width: 75%;
     margin: auto;
     font-size: 1rem;
@@ -19,14 +20,4 @@ h1{
     background-position: left;
     height: 500px;
     background-size: contain;
-}
-.profile{
-    width: 50%;
-    padding-top:5rem;
-    // &:hover{
-    //     transform: rotateX(360deg);
-    //     -webkit-animation-duration: 6s; 
-    //     -webkit-animation-delay: 3s;
-    //     animation-delay: 3s;    
-    // }
 }
