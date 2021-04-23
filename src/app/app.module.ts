@@ -15,6 +15,7 @@ import { CoursesComponent } from './components/courses/courses.component';
 import { DelfA1Component } from './components/courses/delf-a1/delf-a1.component';
 import { DelfA2Component } from './components/courses/delf-a2/delf-a2.component';
 import { DelfB1Component } from './components/courses/delf-b1/delf-b1.component';
+import { DelfB2Component } from './components/courses/delf-b2/delf-b2.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DelfB1Component } from './components/courses/delf-b1/delf-b1.component'
     CoursesComponent,
     DelfA1Component,
     DelfA2Component,
-    DelfB1Component
+    DelfB1Component,
+    DelfB2Component
   ],
   imports: [
     BrowserModule,

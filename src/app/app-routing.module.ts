@@ -4,6 +4,7 @@ import { MainpageComponent } from './components/mainpage/mainpage.component';
 import { DelfA1Component } from './components/courses/delf-a1/delf-a1.component';
 import { DelfA2Component } from './components/courses/delf-a2/delf-a2.component';
 import { DelfB1Component } from './components/courses/delf-b1/delf-b1.component';
+import { DelfB2Component } from './components/courses/delf-b2/delf-b2.component';
 
 const routes: Routes = [{
   path:'',component:MainpageComponent
@@ -16,7 +17,11 @@ const routes: Routes = [{
 },
 {
   path:'delf-b1-exam',component:DelfB1Component
-}];
+},
+{
+  path:'delf-b2-exam',component:DelfB2Component
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
