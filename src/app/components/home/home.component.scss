@@ -6,8 +6,8 @@ h1{
 }
 
 
-.card{
-    padding-top:rem;
+.header{
+    padding-top: 5rem;
     width: 75%;
     margin: auto;
     font-size: 1rem;
@@ -15,9 +15,14 @@ h1{
    
 }
 .row{
-    background-image: url('/assets/home-bg.jpeg'),  url('/assets/home-bgcenter.png');
-    background-repeat: no-repeat, no-repeat;
-    background-position: left, center;
-    height: 500px;
+    background-image: url('/assets/home-bgcenter.png');
+    //url('/assets/home-bg.jpeg'), 
+    background-repeat: no-repeat;//no-repeat,
+    background-position: center;//left
+    height:400px;
     background-size: contain;
+}
+
+.description{
+    font-size:1rem;
 }

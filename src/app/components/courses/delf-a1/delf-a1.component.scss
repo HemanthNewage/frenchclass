@@ -1,0 +1,28 @@
+.course-header{
+    background-color: #ddd;
+}
+
+.single-page-content{
+    width: 75%;
+    margin:auto;
+    border: 1px solid #ddd;
+    // box-shadow: 2px 3px 7px #ddd;
+}
+table{
+    th{
+        background-color: #2a2d52;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: normal;
+        padding: 0.5rem ;
+    }
+    td{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    tbody{
+        tr:nth-child(even){
+            background-color: #ddd;
+        }
+    }
+}

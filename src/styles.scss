@@ -8,15 +8,16 @@
 @import '~bootstrap/scss/utilities';
 @import '~bootstrap/scss/nav';
 @import '~bootstrap/scss/navbar';
+// @import 'bootstrap/scss';
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 html, body { height: 100%; }
-h1,h2,.navbar { margin: 0; font-family: 'Sacramento', cursive !important; }
+h1.heading,h2.heading,.navbar { margin: 0; font-family: 'Sacramento', cursive !important; }
 
 body{
     background-color: #fff;
 }
 
-.navbar{
+.navbar-inverse{
     background-color: #2a2d52;
     .navbar-brand{
         font-size: 2.5rem;

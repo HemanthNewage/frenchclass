@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutComponent } from './components/about/about.component';
 import { CoursesComponent } from './components/courses/courses.component';
+import { DelfA1Component } from './components/courses/delf-a1/delf-a1.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CoursesComponent } from './components/courses/courses.component';
     HomeComponent,
     ContactusComponent,
     AboutComponent,
-    CoursesComponent
+    CoursesComponent,
+    DelfA1Component
   ],
   imports: [
     BrowserModule,
