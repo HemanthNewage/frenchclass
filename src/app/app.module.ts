@@ -13,6 +13,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutComponent } from './components/about/about.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { DelfA1Component } from './components/courses/delf-a1/delf-a1.component';
+import { DelfA2Component } from './components/courses/delf-a2/delf-a2.component';
+import { DelfB1Component } from './components/courses/delf-b1/delf-b1.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { DelfA1Component } from './components/courses/delf-a1/delf-a1.component'
     ContactusComponent,
     AboutComponent,
     CoursesComponent,
-    DelfA1Component
+    DelfA1Component,
+    DelfA2Component,
+    DelfB1Component
   ],
   imports: [
     BrowserModule,
