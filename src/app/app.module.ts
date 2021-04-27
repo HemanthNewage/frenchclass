@@ -16,6 +16,10 @@ import { DelfA1Component } from './components/courses/delf-a1/delf-a1.component'
 import { DelfA2Component } from './components/courses/delf-a2/delf-a2.component';
 import { DelfB1Component } from './components/courses/delf-b1/delf-b1.component';
 import { DelfB2Component } from './components/courses/delf-b2/delf-b2.component';
+import { TcfComponent } from './components/courses/tcf/tcf.component';
+import { TefComponent } from './components/courses/tef/tef.component';
+import { DalfComponent } from './components/courses/dalf/dalf.component';
+import { DalfC2Component } from './components/courses/dalf-c2/dalf-c2.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { DelfB2Component } from './components/courses/delf-b2/delf-b2.component'
     DelfA1Component,
     DelfA2Component,
     DelfB1Component,
-    DelfB2Component
+    DelfB2Component,
+    TcfComponent,
+    TefComponent,
+    DalfComponent,
+    DalfC2Component
   ],
   imports: [
     BrowserModule,
