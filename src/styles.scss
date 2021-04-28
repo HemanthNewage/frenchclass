@@ -29,7 +29,8 @@ body{
 
 
 .course-header{
-    background-color: #ddd;
+    background-color: rgb(2, 117, 216); 
+    color:#fff;
 }
 
 .single-page-content{
@@ -37,11 +38,15 @@ body{
     margin:auto;
     border: 1px solid #ddd;
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 table{
+    padding: 0px .5rem;
     width: 100%;
     th{
         background-color: #2a2d52;
+        background-color: rgb(2, 117, 216); 
+        border: none;
         color: #fff;
         font-size: 1.5rem;
         font-weight: normal;
